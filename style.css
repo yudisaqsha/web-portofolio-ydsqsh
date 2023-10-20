@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+}
+.education{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+h1{
+    color: white;
+}
+@media screen and (max-width: 320px) {
+    .card-courses{
+        width: 100%;
+    }
+
+  }
